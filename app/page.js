@@ -7,7 +7,7 @@ const data = ["Are you sure ?", "It could break my heart", "Pleasee", "Come onnn
 
 const vale = localfont(
   {
-    src:'../public/VALENTIN.ttf'
+    src:'../public/valen.ttf'
   }
 )
 
