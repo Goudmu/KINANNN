@@ -1,8 +1,15 @@
 "use client"
 import Image from "next/image";
 import { useState } from "react";
+import localfont from "next/font/local"
 
-const data = ["Are you sure ??", "It could break my heart", "Pleaseeee", "Come onnn", "I'm Begging you"]
+const data = ["Are you sure ?", "It could break my heart", "Pleasee", "Come onnn", "I'm Begging you"]
+
+const vale = localfont(
+  {
+    src:'../public/VALENTIN.ttf'
+  }
+)
 
 export default function Home() {
   const [noData, setNoData] = useState("NO!!!")
@@ -26,7 +33,9 @@ export default function Home() {
   }
   return (
     <main className="min-h-screen items-center justify-between p-12">
-      <div className="flex flex-col h-5/6 items-center justify-between" >
+      <div className={`flex flex-col h-5/6 items-center justify-between`} 
+        style={vale.style}
+      >
         {
           isYes ?
             <div>
