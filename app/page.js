@@ -11,6 +11,7 @@ const vale = localfont(
   }
 )
 
+
 export default function Home() {
   const [noData, setNoData] = useState("NO!!!")
   const [isNo, setisNo] = useState(false)
