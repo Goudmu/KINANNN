@@ -31,7 +31,7 @@ export default function Home() {
           isYes ?
             <div>
               <Image src="/after.gif" alt="" width={250} height={250} />
-              <div>
+              <div className=" text-center w-full h-full my-4">
                 <h1>THANKS YOU BABEEEEE</h1>
               </div>
             </div>
